@@ -1,10 +1,7 @@
 
+min=int(input("Enter the minimum number\n"))
+max=int(input("Enter the maximum number\n"))
 
-
-a=int(input("Enter the number\n"))
-
-
-if(a>=0):
-    print("Positive")
-else:
-     print("Negative")   
+for i in range(min,max+1):
+    if(i>=0):
+        print(i)
